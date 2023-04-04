@@ -1,0 +1,12 @@
+.checkbox_continer{
+	margin-top: 100vh;
+}
+
+.check_cont label{
+	size: 5rem;
+}
+
+.check_cont input{
+	width: 20%;
+}
+

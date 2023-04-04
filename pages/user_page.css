@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 15px;
+    background: rgb(198, 218, 213) ;
+    height: 100vh;
+    overflow: auto;
+  }
+
+
+
+.info h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(23, 56, 45);
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.info h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(18, 56, 43);
+    font-size: 1.7rem;
+    text-align: left;
+    margin-top: 2.2rem;
+    margin-left: 5rem;
+}
+
+.info hr{
+    margin-top: 15px;
+    height: 3px;
+    background-color: #913131;
+    border: none;
+}
+
+.new_reg {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.new_reg h2{
+    margin-top: 10rem;
+    font-size: 1.6rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.new_reg th{
+    font-size: 1.5rem;
+    border: 1px solid white;
+    
+    height: 5rem;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgb(7, 17, 54);
+    color: white;
+}
+
+.new_reg center{
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+
+.new_reg table,td {
+    font-size: 1.3rem;
+    border: 1px solid black;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+.new_reg table{
+    margin: auto;
+}
+
+.old_reg {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.old_reg h2{
+    margin-top: 10rem;
+    font-size: 1.6rem;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.old_reg th{
+    font-size: 1.5rem;
+    border: 1px solid white;
+    width: 120rem;
+    height: 5rem;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgb(7, 17, 54);
+    color: white;
+}
+
+.old_reg center{
+    font-size: 1.5rem;
+    margin-top: 5rem;
+}
+
+
+.old_reg table,td {
+    font-size: 1.3rem;
+    border: 1px solid black;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+.old_reg table{
+    margin: auto;
+}
+#user_contact hr{
+    margin-top: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #d2c2c2;
+    border: none;
+}
+
+

@@ -1,0 +1,175 @@
+/* Style the search bar */
+
+/*.input-container {
+    width: 220px;
+    position: relative;
+  }*/
+  
+  .icon {
+    position: absolute;
+    left: calc(81% + 5px);
+    top: calc(30.7% + 5px);
+    transform: translateY(calc(-50% - 5px));
+  }
+  
+  .input {
+    margin-left: 27rem;
+    /*margin-left: 70%;*/
+    width: 100rem;
+    height: 40px;
+    padding: 10px;
+    transition: .2s linear;
+    border: 2.5px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border: 0.5px solid black;
+    box-shadow: -5px -5px 0px black;
+  }
+  
+  /*.input-container:hover > .icon {
+    animation: anim 1s linear infinite;
+  }*/
+  
+  @keyframes anim {
+    0%,
+    100% {
+      transform: translateY(calc(-50% - 5px)) scale(1);
+    }
+  
+    50% {
+      transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+  }
+
+
+#searchBar {
+    margin-top: 200px;
+    font-size: 16px;
+    background-color: white;
+}
+
+
+/* Style the hospital list */
+#hospitalList {
+    margin-top: 50px;
+    list-style-type: none;
+}
+/* Style the hospital list items */
+#hospitalList li {
+    /*border: 1px solid #0d0d0d;*/
+    margin-left: 30rem;
+    margin-right: 30rem;
+    width: 90rem;
+    margin-top: 15px;
+    background-color: #a9c5ec;
+    
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+/* Style the hospital list items when hovered */
+/*#hospitalList li:hover {
+    border-width: 10rem;
+    border: #000;
+}*/
+/* Style the hidden hospital list items */
+#hospitalList li.hidden {
+    display: none;
+}
+
+
+
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.item {
+    position: relative;
+    width: 90rem;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50rem;
+    height: 100%;
+    transition: transform 0.5s;
+    border: #000;
+    border-width:10px;
+}
+
+.item:hover img {
+    transform: scale(1.2);
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 50rem;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+.text:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text p {
+    text-align: center;
+    margin-right: 50rem;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: justify ;
+}
+
+.text h3 {
+    margin-right: 50rem;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    content: "Book Appointment";
+}
+
+button::after {
+    content: "Book Appointment";
+  }  
+  
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
