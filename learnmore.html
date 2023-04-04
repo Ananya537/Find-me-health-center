@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Get list of Best hospitals according to your priorities here</title>
+    <link rel="icon" href= "images/logo.jpeg"  >
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .card {
+            margin-top:100px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 94%;
+            height: 600px;
+            /*background: #07182E;*/
+            position: relative;
+            display: flex;
+            justify-content: center; /* added */
+            align-items: center;
+            /*place-content: center;
+            place-items: center;*/
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        .card h2 {
+            margin-top: 0px;
+            text-align: center;
+            z-index: 1;
+            color: rgb(19, 18, 19);
+            /*font-size: 2em;*/
+        }
+
+        .card h3 {
+            margin-top: 0px;
+            z-index: 1;
+            color: rgb(197, 87, 155);
+            font-size: 1em;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            width: 100px;
+            background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+            height: 130%;
+            animation: rotBGimg 3s linear infinite;
+            transition: all 0.2s linear;
+        }
+
+        @keyframes rotBGimg {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .card::after {
+            content: '';
+            position: absolute;
+            background: linear-gradient(43deg, rgb(180, 188, 222) 0%,  rgb(153, 226, 190) 100%);
+            inset: 5px;
+            border-radius: 15px;
+        }  
+        /* .card:hover:before {
+        background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+        animation: rotBGimg 3.5s linear infinite;
+        } */
+
+
+    </style>
+</head>
+<body>
+
+<!-- header section starts  -->
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo">Healthtastic<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="index.html#home">home</a>
+        <a href="index.html#about">about</a>
+        <a href="index.html#products">health centers</a>
+        <a href="index.html#review">review</a>
+        <a href="index.html#contact">contact</a>
+    </nav>
+
+    <div class="icons">   
+        <!---<a href="#" class="fas fa-user" onclick="toggleMenu()"-->
+        <img src="images/user_dropdown.png" class="user-pic" onclick="toggleMenu()">
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="images/user_dropdown.png">
+                    <h3>LOGIN</h3>
+                </div>
+                <hr>
+                <a href="pages/stu_login.html" class="sub-menu-link">
+                    <img src="images/old_user_login.png">
+                    <p>User Login</p>
+                    <span></span>
+                </a>
+                <a href="pages/sign_up.html" class="sub-menu-link">
+                    <img src="images/new_user_login1.png">
+                    <p>User Sign up</p>
+                    <span></span>
+                </a>
+                <a href="pages/emp_login.html" class="sub-menu-link">
+                    <img src="images/employee_login.png">
+                    <p>Employee Login</p>
+                    <span></span>
+                </a>
+                </hr>
+            </div>
+        </div>    
+        </a>
+    </div>
+
+</header>
+
+<!--<div class = "data">-->
+    <div class="card">
+        <h2> <bold style="font-size: 3rem; color: rgb(50, 7, 89);">LEARN MORE</bold>
+    <br><br><br>
+    <p style="text-align: justify; padding-left: 10rem; padding-right: 10rem; font-weight: 100; line-height: 1.5;">
+        “Find me health care center” is a website that is designed to assist people in finding the most appropriate diagnostic center or hospital for their needs. The user can select a set of diagnostic tests that he or she want to undergo and “Find me health care center” will suggest the list of health care centers that can accommodate all the specified diagnostic test together at the same place. The website also allows the user to opt for set of specialists and provides the list of hospitals that includes all specified doctors.
+        <br><br>
+        Health check-ups are designed not only to detect medical issues, but also to identify risk factors and illnesses before they start to cause problems. Health check-ups aim to not only help the person to prevent illnesses and its complications but also to make changes in the lifestyle for long-term healthy life.<br><br>
+        Browsing for the nearby diagnostic center or multispecialty hospitals is not new nowadays. But there are chances that those healthcare center lack with few desired facility or some specialists. There is a need of a website which can find hospitals based on the user’s priorities.
+        Through our project we are tackling the limitations and resolving the issues which we don’t find the existing system.<br><br>
+        In our project we are making a website where the user can go to find the nearest and the best possible health center to visit. This website will give user the choice to select which, doctor specialized in what and what equipment’s are available in the health center. After selecting, a list of options will be provided to the user through which they can choose the nearest hospital. Then a time slot will be allotted to them when they can visit. 
+        <br><br>All the patient’s information would be stored with their results so that the patients can access there information anytime by login using user id and password given to them during their first visit to the website.
+        <br><br>This website all gives hospital staff the option to add the patients results in the system which can be viewed by patients anytime.<br> 
+    </p></h2>
+    </div>
+<!--</div>-->
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+
+</body>
+</html>

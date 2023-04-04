@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Get list of Best hospitals according to your priorities here</title>
+    <link rel="icon" href= "images/logo.jpeg"  >
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#home" class="logo">Healthtastic<span>.</span></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#products">health centers</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">   
+        <img src="images/user_dropdown.png" class="user-pic" onclick="toggleMenu()">
+        <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="images/user_dropdown.png">
+                    <h3>LOGIN</h3>
+                </div>
+                <hr>
+                <a href="pages/stu_login.html" class="sub-menu-link">
+                    <img src="images/old_user_login.png">
+                    <p>User Login</p>
+                    <span></span>
+                </a>
+                <a href="pages/sign_up.html" class="sub-menu-link">
+                    <img src="images/new_user_login1.png">
+                    <p>User Sign up</p>
+                    <span></span>
+                </a>
+                <a href="pages/emp_login.html" class="sub-menu-link">
+                    <img src="images/employee_login.png">
+                    <p>Employee Login</p>
+                    <span></span>
+                </a>
+                </hr>
+            </div>
+        </div>    
+        </a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Find Me Health Centers</h3>
+        <span> Choose hospitals of your choice </span>
+        <p><em>Health is wealth.</em><br> Health care is conventionally regarded as an important determinant in promoting the general physical, mental and social well-being of people around the world.</p>
+        <a href="pages/center_search.php" class="btn">Search Now</a>
+    </div>
+    
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> about </span> us </h1>
+
+    <div class="row">
+
+        <div class="video-container">
+            <video src="images/ooo.mp4" loop autoplay muted></video>
+            <!--<h3>Healthtastic</h3>-->
+        </div>
+
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Find me health care center is a website that is designed to assist people in finding the most appropriate diagnostic center or hospital for their needs.</p>
+            <p>It gives the privilege to the user to select the hospital based on their affordability and accessibility. </p>
+            <a href="learnmore.html" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <img src="images/icon-1.png" alt="">
+        <div class="info">
+            <h3>Best Service</h3>
+            <span>for all treatments</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-2.png" alt="">
+        <div class="info">
+            <h3>Affordable</h3>
+            <span>price of your choice</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-3.png" alt="">
+        <div class="info">
+            <h3>right choice</h3>
+            <span>for your loved ones</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="images/icon-4.png" alt="">
+        <div class="info">
+            <h3>secure payments</h3>
+            <span>protected by paypal</span>
+        </div>
+    </div>
+   
+</section>
+
+<!-- icons section ends -->
+
+<!-- prodcuts section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> health centers <span>partnered with us</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-1.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">old airport road, Bangalore</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Manipal Hospital</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-2.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">bannerghatta road, Bangalore</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Apollo Hospital</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-3.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">jayanagar, bangalore</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Sagar Hospital</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-4.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">bannerghatta road, Bangalore</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Fortis Hospital</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-5.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">bellandur, bangalore</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Sakra World Hospital</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/img-6.jpeg" alt="">
+                <div class="icons">
+                    <a href="#" class="cart-btn">yeshwanthpur, bangalore</a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>Columbia Asia Hospital</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- prodcuts section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+<h1 class="heading"> customer's <span>review</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>I am so glad that I came across this website. It helped me a lot in finding the nearest hospital and it was really easy to use.<br><br><br><br><br></p>
+        <div class="user">
+            <img src="images/pic1.png" alt="">
+            <div class="user-info">
+                <h3>abha saxena</h3>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>I am really grateful to this website, through this I was able to find the hospital I was looking for. I hope they add some more features to it.<br><br><br><br></p>
+        <div class="user">
+            <img src="images/pic2.png" alt="">
+            <div class="user-info">
+                <h3>himanshu singh</h3>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+    <div class="box">
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>I still can't believe that I wasn't aware of this wonderful website for so long. It not just assisted me to find a hospital according to my needs, but also helped me getting an appointment.<br><br><br></p>
+        <div class="user">
+            <img src="images/pic3.png" alt="">
+            <div class="user-info">
+                <h3>krithi krishnan</h3>
+            </div>
+        </div>
+        <span class="fas fa-quote-right"></span>
+    </div>
+
+</div>
+    
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span> contact </span> us </h1>
+
+    <div class="row">
+
+        <form action="mailto:dassiananya@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="name" class="box">
+            <input type="email" name="email" placeholder="email" class="box">
+            <input type="number" name="number" placeholder="number" class="box">
+            <textarea name="message" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+        <div class="image">
+            <img src="images/contact-img.png" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#product">health center</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="pages/stu_login.html">my account</a>
+            <a href="pages/sign_up.html">new account</a>
+            <a href="pages/emp_login.html">employee login</a>
+        </div>
+
+        <div class="box">
+            <h3>locations in bangalore</h3>
+            <a href="#">old airport road</a>
+            <a href="#">bannerghatta road</a>
+            <a href="#">jayanagar</a>
+            <a href="#">bellandur</a>
+            <a href="#">yeshwanthpur</a>
+
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">dassiananya@gmail.com</a>
+            <a href="#">bangalore, india - 560064</a>
+            <img src="images/payment.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> ananya dassi & b s srividya </span> | @Copyright </div>
+
+</section>
+
+<!-- footer section ends -->
+<script>
+    let subMenu = document.getElementById("subMenu");
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+</body>
+</html>
